@@ -1,0 +1,158 @@
+[
+  {
+    "id": 1,
+    "text": "You follow a side street into the alley behind the houses.\n\nYou have only been this way once before with your best friend and hadn't paid attention to where you were headed.\n\nYou walk down the back alley behind a row of houses, carefully stepping past garbage and recycling cans. Vines suffocate the wood panel fencing blocking your view of the backyards. A green door in the fence catches your eye. It looks freshly painted.\n\nYou are nearly past the door when you hear a soft cry.\n\nYou stop and stare at the door. The heart-shaped opening at the top is too high for you to see through. You stand on tiptoes, straining to see in. It is no use. You are too short.",
+    "options": [
+      {
+        "text": "Investigate the door further",
+        "nextText": 2
+      },
+      {
+        "text": "Walk away",
+        "nextText": 3
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "text": "Cautiously, you put your ear to the wooden door and listen. You hear the soft cry again, muffled but louder this time. You knock softly on the door and the sound stops.\n\nSuddenly, something growls. You pull your head away from the door quickly and step back.\n\nYou turn and are about to walk away when you hear someone inside scream!",
+    "options": [
+      {
+        "text": "Try the handle",
+        "nextText": 4
+      },
+      {
+        "text": "Run away",
+        "nextText": 5
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "text": "You decide it is best to walk away and find another way home. You will tell your friend about the strange door and the sounds you heard. Maybe you will investigate together another day. For now, you turn around and walk back the way you came, hoping to find a familiar street.",
+    "options": [
+      {
+        "text": "Restart",
+        "nextText": -1
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "text": "You grab the ornate brass handle of the door and try to open it. The door opens barely a crack before it jarringly stops. It appears it is locked from the inside.",
+    "options": [
+      {
+        "text": "Break down the door",
+        "nextText": 6
+      },
+      {
+        "text": "Climb the fence",
+        "nextText": 7
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "text": "You slam the door with your shoulder as hard as you can, feeling a sharp pain in your arm. The door holds.",
+    "options": [
+      {
+        "text": "Climb the fence",
+        "nextText": 7
+      },
+      {
+        "text": "Walk away",
+        "nextText": 3
+      },
+      {
+        "text": "Try again",
+        "nextText": 30
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "text": "You hit the door again with your shoulder. Suddenly, something large and heavy slams into the door from the other side. The door shakes from the impact. The lock rattles. You step back, your heart pounding, your breath stuck in your throat.",
+    "options": [
+      {
+        "text": "Climb the fence",
+        "nextText": 7
+      },
+      {
+        "text": "Run away",
+        "nextText": 3
+      },
+      {
+        "text": "Try opening the door again",
+        "nextText": 30
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "text": "You bolt and run. Your pink keds slap hard against the pavement as you race down the narrow alley. You hear a bang behind you and know the door has crashed against the street. You keep running, your heart pounding, until you reach a familiar street. You will never forget the terrifying sounds you heard that day.",
+    "options": [
+      {
+        "text": "Restart",
+        "nextText": -1
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "text": "You grab a nearby stick and swing it at the creature. The creature roars in anger and charges at you. You dodge its attack and continue to swing the stick, determined to protect the woman behind you. After a fierce battle, you manage to strike the creature in a vulnerable spot, and it falls to the ground.",
+    "options": [
+      {
+        "text": "Free the woman",
+        "nextText": 100
+      },
+      {
+        "text": "Inspect the creature",
+        "nextText": 110
+      }  
+    ]
+  },
+  {
+    "id": 100,
+    "text": "You hurry over to the woman and untie the ropes. The woman thanks you profusely, explaining that she had been kidnapped by the creature. Grateful for your bravery, the woman offers to help you find your way home. Together, you leave the alley and venture back to the safety of the town.\n\nYou win!!",
+    "options": [
+      {
+        "text": "Congratulations! Play Again.",
+        "nextText": -1
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "text": "You climb the fence. Inside, you see a small figure tied up. It appears to be a woman. Nearby is a large, shadowy creature looming over her. The creature turns its attention to you, growling menacingly. You see a stick near your feet and a garbage pail lid a foot away.",
+    "options": [
+      {
+        "text": "Grab the stick",
+        "nextText": 20
+      },
+      {
+        "text": "Grab the lid",
+        "nextText": 120
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "text": "You propel yourself forward toward the lid. You see the creature launch itself toward you as soon as you start to move. You grab the lid, but before you can lift it the creature is upon you.",
+    "options": [
+      {
+        "text": "Die a horrible death",
+        "nextText": -1
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "text": "You carefully approach the fallen creature and inspect it. It's unlike anything you've seen before, with dark, scaly skin and glowing red eyes. You feel a shiver down your spine. After a moment, you decide to focus on freeing the woman.",
+    "options": [
+      {
+        "text": "Free the woman",
+        "nextText": 100
+      }
+    ]
+  }
+]
